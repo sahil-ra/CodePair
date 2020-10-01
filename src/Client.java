@@ -8,6 +8,8 @@ import java.awt.event.KeyListener;
 import java.io.*;
 import java.net.*;
 import java.util.Scanner;
+import java.lang;
+import java.math;
 
 class Client extends JFrame implements  ActionListener, KeyListener{
     public static Socket socketClient;
