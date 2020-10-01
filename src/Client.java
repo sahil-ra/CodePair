@@ -87,6 +87,7 @@ class Client extends JFrame implements  ActionListener, KeyListener{
     public void ChangeText(String str) {
         t.setText(str);
     }
+    // nice implementation
     public void actionPerformed(ActionEvent e) {
         String s = e.getActionCommand();
 
@@ -116,7 +117,7 @@ class Client extends JFrame implements  ActionListener, KeyListener{
 
         }
     }
-
+            // done checking and changes made
     @Override
     public void keyTyped(KeyEvent e) {
 
