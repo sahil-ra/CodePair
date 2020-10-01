@@ -21,6 +21,7 @@ class Client extends JFrame implements  ActionListener, KeyListener{
     JFrame f;
     public static void main(String[] args) {
         try {
+            System.out.println("codePair has started");
             socketClient = new Socket("2.tcp.ngrok.io",13355);
             System.out.println("Connected !");
             Client c1 = new Client();
