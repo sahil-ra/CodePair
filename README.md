@@ -1,3 +1,3 @@
 # CodePair
 
-It is a Collaborative code editor made using Java, Java Sockets, JavaFX. 
+It's a Collaborative code editor made using Java, Java Sockets, JavaFX. 
