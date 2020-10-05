@@ -11,7 +11,7 @@ public class Server {
 
     public static void main(String[] args) throws IOException {
         ServerSocket server = new ServerSocket(9999);
-        System.out.println("Waiting bitch");
+        System.out.println("Waiting b**ch");
         while(true){
             Socket socketServer = server.accept();
             System.out.println("Start Communication");
